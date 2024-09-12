@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import logo from "../assets/logo.svg";
 import { useNavigate } from "react-router-dom";
 import { Favorites } from "../components/Favorites";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css'
 
 
 export const Homepage = () => {
@@ -11,7 +13,9 @@ export const Homepage = () => {
 
   useEffect(() => {
     if (!like) {
+      toast('💔 Why no like!')
     } else {
+      toast('💟 Nice!')
     }
   }, [like]);
 
