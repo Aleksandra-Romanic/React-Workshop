@@ -8,6 +8,7 @@ export const Favorites = ({favoriteStatus, favoriteAction}: Props) => {
       <FavoriteIcon
         onClick={favoriteAction}
         color='error'
+        data-testid='likedButton'
       />
     )
 
@@ -15,6 +16,7 @@ export const Favorites = ({favoriteStatus, favoriteAction}: Props) => {
     <FavoriteBorderIcon
       onClick={favoriteAction}
       color='error'
+      data-testid='notLikedButton'
     />
   )
 }

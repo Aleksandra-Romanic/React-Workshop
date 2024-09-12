@@ -29,9 +29,8 @@ export const Homepage = () => {
         <Favorites favoriteStatus={like} favoriteAction={handleFavor} />
       </div>
       {like ? (
-        <div>
-          <img src={logo} className="App-logo" alt="logo" />
-        </div>
+        <div onClick={() => navigate("/About")} data-testid="reactLogo">
+          <img src={logo} className="App-logo" alt="logo" /></div>
       ) : null}
     </>
   );
