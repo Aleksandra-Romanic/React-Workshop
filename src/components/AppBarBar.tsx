@@ -14,7 +14,8 @@ export const AppBarBar = () => {
             <Toolbar>
               <Typography style={{ color: 'black'}} > <LogoBar/></Typography>
               <TextField id="outlined-basic"  variant="outlined" sx={{width:"370px", height:"50px", gap:"4px",
-               outline: "none", background: "#F7F7F9", borderRadius: "20px"} }
+               outline: "none", background: "#F7F7F9", borderRadius: "20px", "& fieldset": {border: 'none'}
+} }
               
               placeholder="Search for title or author"
               style={{margin: 'auto'}}
