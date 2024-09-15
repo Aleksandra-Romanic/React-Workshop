@@ -6,20 +6,27 @@ import { Homepage } from './pages/Homepage';
 import { ToastContainer } from 'react-toastify';
 import About from './pages/About';
 import { AppBarBar } from './components/AppBarBar';
+import { CardBook } from './components/CardBook';
+import { Box } from '@mui/material';
 
 function App() {
   return (
-    <div className='App'>
+    < Box
+    sx={{ height: '100vh',width: '100vw',backgroundColor: 'white',margin: 0,padding: 0 }}>
+       <AppBarBar/>
+       <CardBook/>
+    </Box>
+   ); /*<div className='App'>
       <AppBarBar/>
+      <CardBook/>
     <header className='App-header'>
       {/*<Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/About' element={<About />} />
-      </Routes>*/}
+      </Routes>
     </header>
     <ToastContainer autoClose={1000} closeOnClick theme='dark' />
-  </div>
-  );
+  </div> */
 }
 
 export default App;

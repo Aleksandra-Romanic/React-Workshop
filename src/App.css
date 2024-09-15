@@ -48,8 +48,8 @@
 }
 
 .text-container {
-width: Fixed (102px)px;
-height: Hug (42px)px;
+width: 102px;
+height: 42px;
 flex-direction: column;
 display: flex;
 }
