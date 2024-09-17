@@ -1,0 +1,70 @@
+[
+    {
+        "image": "images/BookCover1.svg",
+        "rating": 3,
+        "description": "Mindwise: Why we misunderstand what others...",
+        "author": "Nicholas Epley",
+        "available": true
+
+    },
+    {   
+        "image": "images/BookCover2.svg",
+        "rating": 4,
+        "description": "When: The scientific secrets of perfect timing",
+        "author": "Daniel H. Pink",
+        "available": true
+
+    },
+
+    {
+        "image": "images/BookCover3.svg",
+        "rating": 5,
+        "description": "Hooked: How to build habit-forming products",
+        "author": "Nir Eyal",
+        "available": true
+
+    },
+
+
+    {
+        "image": "images/BookCover4.svg",
+        "rating": 4,
+        "description": "Thinking, fast and slow",
+        "author": "Daniel Kahneman",
+        "available": true
+
+    },
+    {
+        "image": "images/BookCover5.svg",
+        "rating": 3,
+        "description": "Product marketing debunked: The essential....",
+        "author": "Yasmeen Turayhiy",
+        "available": true
+
+    },
+
+    {
+        "image": "images/BookCover6.svg",
+        "rating": 4,
+        "description": "Build it; a rebel playbook for world class employee...",
+        "author": "Glenn Elliott, Debra Corey",
+        "available": true
+
+    },
+    {
+        "image": "images/BookCover7.svg",
+        "rating": 4,
+        "description": "Creativity, INC",
+        "author": "Edwin Catmull, Amy Wallace",
+        "available": true
+
+    },
+    {
+        "image": "images/BookCover8.svg",
+        "rating": 4,
+        "description": "Design patterns: Elements of reusable object-oriented...",
+        "author": "Erich Gamma, Richard Helm...",
+        "available": true
+
+    }
+]

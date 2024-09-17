@@ -7,16 +7,22 @@ import { ToastContainer } from 'react-toastify';
 import About from './pages/About';
 import { AppBarBar } from './components/AppBarBar';
 import { CardBook } from './components/CardBook';
-import { Box } from '@mui/material';
+import { Box, Stack } from '@mui/material';
+
+import books from './books.json';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
     < Box
-    sx={{ height: '100vh',width: '100vw',backgroundColor: 'white',margin: 0,padding: 0 }}>
+    sx={{ height:'100vh', width:'100vw', backgroundColor:'white' ,margin:0, padding:0 }}>
        <AppBarBar/>
-       <CardBook/>
+       <Carousel/>
     </Box>
-   ); /*<div className='App'>
+   );
+   
+   
+   /*<div className='App'>
       <AppBarBar/>
       <CardBook/>
     <header className='App-header'>
